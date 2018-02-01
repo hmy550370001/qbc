@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_showresult_acitivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/showresult"
+    tools:context="com.purui.myapplication.Activity.Showresultactivity">
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/showresultcontinuetest"
+        android:id="@+id/btn_showresultcontinuetest"
+        android:layout_below="@+id/btn_showresultback"
+        android:layout_alignStart="@+id/btn_showresultback"
+        android:layout_marginTop="12dp"  />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/showresultprintresult"
+        android:id="@+id/btn_showresultprintresult"
+        android:layout_below="@+id/btn_showresultcontinuetest"
+        android:layout_alignStart="@+id/btn_showresultcontinuetest"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/showresultuploaddata"
+        android:id="@+id/btn_showresultuploaddata"
+        android:layout_below="@+id/btn_showresultprintresult"
+        android:layout_alignStart="@+id/btn_showresultprintresult"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/testback"
+        android:id="@+id/btn_showresultback"
+        android:layout_marginTop="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

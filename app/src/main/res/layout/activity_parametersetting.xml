@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_parametersetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parameterui"
+    tools:context="com.purui.myapplication.Activity.parametersetting">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/parametersetback"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/btn_parameterback"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="#0000"
+
+        android:layout_width="520px"
+        android:layout_height="180px"
+        android:id="@+id/btn_timeset"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/btn_parameterback"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:background="#0000"
+        android:layout_width="520px"
+        android:layout_height="180px"
+        android:id="@+id/btn_adjustset"
+        android:layout_marginEnd="56dp"
+        android:layout_alignTop="@+id/btn_timeset"
+        android:layout_alignEnd="@+id/btn_parameterback" />
+
+    <Button
+
+        android:layout_width="520px"
+        android:background="#0000"
+        android:layout_height="180px"
+        android:id="@+id/btn_restoreset"
+        android:layout_alignBottom="@+id/btn_lightset"
+        android:layout_alignStart="@+id/btn_adjustset" />
+
+    <Button
+
+        android:background="#0000"
+        android:layout_width="520px"
+        android:layout_height="180px"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/btn_lightset"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_timeset" />
+
+
+</RelativeLayout>

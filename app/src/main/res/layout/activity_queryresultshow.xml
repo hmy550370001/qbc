@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_queryresultshow"
+    android:layout_width="match_parent"
+    android:background="@drawable/queryresultshowui"
+    android:layout_height="match_parent"
+    tools:context="com.purui.myapplication.Activity.queryresultshow">
+
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="800px"
+        android:layout_height="150px"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:id="@+id/btn_queryresultshowback"
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/editText2"
+        android:background="#0000" />
+
+    <Button
+        android:background="#0000"
+
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:id="@+id/btn_queryresultgoon"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/btn_queryresultshowback"
+        android:layout_marginTop="26dp" />
+</RelativeLayout>

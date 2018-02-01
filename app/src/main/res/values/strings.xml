@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="starttest">开始测试</string>
+    <string name="queryresult">查询结果</string>
+    <string name="btn_parametersetting">参数设置</string>
+    <string name="inputtesttube">请放入检测试管</string>
+    <string name="title_activity_welcomeactivity">welcomeactivity</string>
+    <string name="testteststart">开始测试</string>
+    <string name="btn_mainlightsetting">光强设置</string>
+    <string name="title_activity_closeactivity">Closeactivity</string>
+</resources>

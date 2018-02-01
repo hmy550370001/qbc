@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_queryresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/queryresultbackrought"
+    tools:context="com.purui.myapplication.Activity.queryresultactivity">
+
+    <ImageView
+        android:src="@drawable/queryresultback"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:id="@+id/iv_queryresultback"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:minLines="11"
+        android:hint="请输入您所查询的id"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/queryresultinput"
+        android:layout_width="1236px"
+        android:layout_height="106px"
+        android:id="@+id/editText"
+        android:layout_below="@+id/iv_queryresultback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:background="@drawable/testsubmit"
+        android:id="@+id/btn_queryresultsubmit"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+</RelativeLayout>

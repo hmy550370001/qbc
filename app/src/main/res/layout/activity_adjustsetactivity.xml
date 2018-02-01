@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adjustsetactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adjustsetactivity"
+    tools:context="com.purui.myapplication.Activity.Adjustsetactivity">
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="120dp"
+        android:background="@drawable/lightback"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/btn_adjustsetback"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

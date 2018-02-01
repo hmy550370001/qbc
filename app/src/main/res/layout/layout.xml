@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:background="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0,1,2">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我占据一行" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:background="@drawable/data0"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            </Button>
+
+            <Button
+                android:background="@drawable/data1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3">
+            </Button>
+
+            <Button
+                android:background="@drawable/data2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4">
+            </Button>
+
+
+        </LinearLayout>
+        <TableRow>
+
+            <Button
+
+                android:background="@drawable/data3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000000000000000000000000" >
+            </Button>
+
+            <Button
+                android:background="@drawable/data4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111111111111111111111111"
+                android:id="@+id/button2">
+            </Button>
+
+            <Button
+                android:background="@drawable/data5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="222222222222222222222222"
+                android:id="@+id/button">
+            </Button>
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000000000000000000000000" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111111111111111111111111" >
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="222222222222222222222222" >
+            </Button>
+        </TableRow>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000000000000000000000000" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111111111111111111111" >
+        </Button>
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="222222222222222222222222"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="316dp"
+        android:id="@+id/button5">
+    </Button>
+
+
+</RelativeLayout>
+

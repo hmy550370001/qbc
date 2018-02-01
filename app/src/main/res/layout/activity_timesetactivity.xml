@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_timesetactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timesetall"
+    tools:context="com.purui.myapplication.Activity.Timesetactivity">
+
+    <Button
+        android:background="#0000"
+        android:layout_width="230px"
+        android:layout_height="160px"
+        android:layout_marginTop="29dp"
+        android:id="@+id/btn_timesetback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

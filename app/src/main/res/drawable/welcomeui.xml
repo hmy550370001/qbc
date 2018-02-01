@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/welcomeui1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/welcomeui12"
+        android:duration="100" />
+
+
+</animation-list>

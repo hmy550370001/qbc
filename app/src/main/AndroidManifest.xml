@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.purui.myapplication">
+    <!--    调整toast字体大写的-->
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/notitle">
+        <activity
+            android:name=".Activity.logoactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.StartMainAcitivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Mainactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.TestActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Showresultactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.queryresultactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.parametersetting"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.welcomeactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Adjustsetactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Timesetactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Restoresetactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Lightsetactivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/theme_fullScreen" />
+        <activity
+            android:name=".Activity.Closeactivity"
+            android:label="@string/title_activity_closeactivity" />
+        <activity android:name=".Activity.queryresultshow"></activity>
+    </application>
+
+</manifest>
